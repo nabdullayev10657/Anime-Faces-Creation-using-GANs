@@ -19,10 +19,10 @@ OPTIMIZERS
 As an optimizer, I have taken Adam Optimizer and added hyperparameter betas (0.5, 0.9) because research showed that Adam optimizer and betas range works pretty well in GAN implementations (mostly). 
 
 TRAINING WHOLE & LOSSES
-After we are done with everything, we are ready to go with training the model. I used 20 epoches, 0.001 learning rate, CPU for running, 200 as batch size, 64x64 as image size. Running took almost 10 hours in my local machine. After fitting the model, I have printed graphical representation of the whole process. s can be seen from graphs, real scores is going to increase, and fake scores is going to decrease, which is something that we want to achieve.
+After we are done with everything, we are ready to go with training the model. I used 20 epoches, 0.001 learning rate, CPU for running, 200 as batch size, 64x64 as image size. Running took almost 10 hours in my local machine. After fitting the model, I have printed graphical representation of the whole process. As can be seen from graphs, real scores is going to increase, and fake scores is going to decrease, which is something that we want to achieve.
 
 LIMITATIONS
-I could use more epoches and less learning rate to make to get better results, and also instead of CPU, GPU could have been used to reduce time and energy. Also loss function could be weighted loss to make the process more smooth. Because in that way, we would have better idea whivh network contributed the total loss to what extend and cofficients would also be used as hyperparameters. These can be further improved and might be future scope of this work.
+I could use more epoches and less learning rate to get better results, and also instead of CPU, GPU could have been used to reduce time and energy. Also loss function could be weighted loss to make the process more smooth. Because in that way, we would have better idea which network contributed the total loss to what extend and cofficients would also be used as hyperparameters. These can be further improved and might be future scope of this work.
 
 
 
