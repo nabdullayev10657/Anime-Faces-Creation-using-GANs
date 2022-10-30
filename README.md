@@ -1,6 +1,6 @@
 # Anime-Faces-Creation-using-GANs
 
-**GAN OVERVIEW**
+**GAN OVERVIEW**\n
 Past 2 decades have been memorized for huge innovations and revolutions in many fields of AI, and they have given root for today's newly emerging fields of modern AI and DL. In this sense, GANs have gained huge popularity and usage throughout last decades. GANs are mosly used to create images that do not exist in real world. It can be implemented in creating new datasets for further research in AI, creating human faces, new characters, and so on.
 
 **PROJECT OVERVIEW**
